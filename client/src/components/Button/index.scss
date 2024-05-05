@@ -1,0 +1,30 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  cursor: pointer;
+
+  input {
+    all: unset;
+  }
+
+  .button {
+    background-color: #a79277;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    min-width: 150px;
+    opacity: 1;
+    transition: 0.3s;
+    font-weight: 700;
+    white-space: normal;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

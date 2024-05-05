@@ -1,0 +1,29 @@
+.show {
+  position: fixed;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  padding: 16px;
+  bottom: 20px;
+  right: 20px;
+  outline: none;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}

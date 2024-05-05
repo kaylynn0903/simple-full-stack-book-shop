@@ -1,0 +1,35 @@
+.book-container {
+  min-height: calc(100vh - 66.5px - 16px - 51px - 32px);
+  .containers {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    margin: auto;
+    text-align: left;
+    width: 80%;
+
+    .cover-container {
+      margin-right: 10%;
+
+      img.cover {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        background-color: #ffeef4;
+      }
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      padding-bottom: 15px;
+    }
+  }
+}
