@@ -1,0 +1,7 @@
+/db/mysql-data/
+
+/server/node_modules
+/server/build
+
+/client/node_modules
+/client/build
